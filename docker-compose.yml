@@ -10,3 +10,6 @@ services:
     environment:
       - TZ=Asia/Shanghai
       - DEEP_SEEK_CHAT_AUTHORIZATION=UFV8fRYleCxxxxxxXYMMKEOJtOmDKffP2W6Km
+    extra_hosts: # <--- 添加 extra_hosts 部分
+      - "chat.deepseek.com:1.94.179.165" # <--- 将域名和 IP 添加到 extra_hosts
+
