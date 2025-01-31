@@ -11,5 +11,6 @@ services:
       - TZ=Asia/Shanghai
       - DEEP_SEEK_CHAT_AUTHORIZATION=7Vg2hS7yH4ozSe1jrJDSBvVGcmx/xlutMHOTHoFwaQrb8mBfRnNKcSHVB4s2+P/G
     extra_hosts: # <--- 添加 extra_hosts 部分
-      - chat.deepseek.com:1.94.179.165 # <--- 将域名和 IP 添加到 extra_hosts
+      - chat.deepseek.com:104.18.27.90
+      - chat.deepseek.com:104.18.26.90
 
