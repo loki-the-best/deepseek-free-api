@@ -9,7 +9,7 @@ services:
       - "8000:8000"
     environment:
       - TZ=Asia/Shanghai
-      - DEEP_SEEK_CHAT_AUTHORIZATION=UFV8fRYleCxxxxxxXYMMKEOJtOmDKffP2W6Km
+      - DEEP_SEEK_CHAT_AUTHORIZATION=7Vg2hS7yH4ozSe1jrJDSBvVGcmx/xlutMHOTHoFwaQrb8mBfRnNKcSHVB4s2+P/G
     extra_hosts: # <--- 添加 extra_hosts 部分
       - "chat.deepseek.com:1.94.179.165" # <--- 将域名和 IP 添加到 extra_hosts
 
